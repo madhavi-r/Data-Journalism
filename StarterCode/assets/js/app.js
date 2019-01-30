@@ -86,7 +86,7 @@ function renderYText(textGroup, newYScale, chosenYAxis) {
 }
     
 // Retrieve data from the CSV file and execute everything below
-d3.csv("assets/data/data.csv")
+d3.csv("StarterCode/assets/data/data.csv")
 .then(function(Data){
     // if (err) throw err;
 
